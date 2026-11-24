@@ -1,0 +1,16 @@
+{
+	"name": "adf-forecasting-dev26",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "56525abb-7e54-4c37-bd9a-8101b7ae4bca",
+		"tenantId": "851ff414-c116-4f69-8986-bd64a3db66de"
+	}
+}

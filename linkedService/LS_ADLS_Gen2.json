@@ -1,0 +1,11 @@
+{
+	"name": "LS_ADLS_Gen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stforecastingdev26.dfs.core.windows.net/"
+		}
+	}
+}
