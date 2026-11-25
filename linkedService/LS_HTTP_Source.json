@@ -1,0 +1,12 @@
+{
+	"name": "LS_HTTP_Source",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/csv/pjme-hourly-6951852bda3c4588058217-6b0360cfa260b742484012.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
