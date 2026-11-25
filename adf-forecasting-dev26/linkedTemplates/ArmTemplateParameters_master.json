@@ -8,13 +8,7 @@
 		"LS_ADLS_Gen2_accountKey": {
 			"value": ""
 		},
-		"LS_ADLS_Gen2__accountKey": {
-			"value": ""
-		},
 		"LS_ADLS_Gen2_properties_typeProperties_url": {
-			"value": "https://stforecastingdev26.dfs.core.windows.net/"
-		},
-		"LS_ADLS_Gen2__properties_typeProperties_url": {
 			"value": "https://stforecastingdev26.dfs.core.windows.net/"
 		},
 		"LS_HTTP_Source_properties_typeProperties_url": {

@@ -11,15 +11,7 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_ADLS_Gen2'"
 		},
-		"LS_ADLS_Gen2__accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'LS_ADLS_Gen2_'"
-		},
 		"LS_ADLS_Gen2_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://stforecastingdev26.dfs.core.windows.net/"
-		},
-		"LS_ADLS_Gen2__properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://stforecastingdev26.dfs.core.windows.net/"
 		},
@@ -341,23 +333,6 @@
 					"accountKey": {
 						"type": "SecureString",
 						"value": "[parameters('LS_ADLS_Gen2_accountKey')]"
-					}
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/LS_ADLS_Gen2_')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "AzureBlobFS",
-				"typeProperties": {
-					"url": "[parameters('LS_ADLS_Gen2__properties_typeProperties_url')]",
-					"accountKey": {
-						"type": "SecureString",
-						"value": "[parameters('LS_ADLS_Gen2__accountKey')]"
 					}
 				}
 			},
