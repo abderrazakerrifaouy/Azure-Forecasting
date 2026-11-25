@@ -49,7 +49,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_Landing_CSV",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
