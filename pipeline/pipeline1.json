@@ -18,9 +18,8 @@
 					"source": {
 						"type": "DelimitedTextSource",
 						"storeSettings": {
-							"type": "AzureBlobFSReadSettings",
-							"recursive": true,
-							"enablePartitionDiscovery": false
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -55,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_Datalake_CSV",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					}
 				]
