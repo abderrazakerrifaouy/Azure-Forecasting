@@ -7,10 +7,10 @@
 			"isExplicitlySet": false
 		}
 	},
-	"location": "northeurope",
+	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "56525abb-7e54-4c37-bd9a-8101b7ae4bca",
+		"principalId": "36f537d7-f779-4802-90e8-880335424c70",
 		"tenantId": "851ff414-c116-4f69-8986-bd64a3db66de"
 	}
 }
