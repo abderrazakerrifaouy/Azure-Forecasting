@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-aerrifaouy26"
+		},
+		"LS_LAK_Source_accountKey": {
+			"value": ""
+		},
+		"LS_HTTP_Source_properties_typeProperties_url": {
+			"value": "https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/csv/pjme-hourly-6951852bda3c4588058217-6b0360cfa260b742484012.csv"
+		},
+		"LS_LAK_Source_properties_typeProperties_url": {
+			"value": "https://staerrifaouy26.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
